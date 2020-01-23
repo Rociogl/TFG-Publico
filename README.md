@@ -19,5 +19,7 @@ Se crea una página web con el fin de identificar de manera sencilla a que clust
 # TFG - Resumen
 
 En esta investigación, en primer lugar, se lleva a cabo una segmentación de municipios según su Vulnerabilidad Socioeconómica, Sociodemográfica y Residencial, se detectan para el caso de España 5 claras regiones. Con ello se elabora una página web interactiva en la que se pueden visualizar los diferentes municipios existentes y caracterizarlos en función del segmento al que pertenecen.
+
 En segundo lugar, dichos segmentos se elaboran con una finalidad de doble vertiente. Por un lado, se utilizan como variable predictora en un sistema experto elaborado por la empresa de tasaciones CoHispania, colaboradora en esta investigación, para evaluar como repercute en sus resultados. Por otro lado, dicha segmentación se desarrolla con el objetivo de crear modelos locales a la hora de elaborar un prototipo de Modelo Automatizado de Valoración (AVM) basado en técnicas de Machine Learning.
+
 Para llevar a cabo su creación se aplican técnicas de ensemble, compuestas por algoritmos de árboles de regresión. En cuanto a las métricas de evaluación se emplean las establecidas en la guía que propone el Banco de España, resultando Random Forest cómo la mejor técnica a aplicar. Los resultados obtenidos son prometedores, ya que son similares a los que se obtienen en entornos de producción.
